@@ -13,7 +13,7 @@ const useStyles = makeStyles(() => ({
   },
 }));
 
-function ReadParticipantsPage() {
+function ParticipantsPage() {
   const classes = useStyles();
   return (
     <div>
@@ -31,4 +31,4 @@ function ReadParticipantsPage() {
   );
 }
 
-export default ReadParticipantsPage;
+export default ParticipantsPage;

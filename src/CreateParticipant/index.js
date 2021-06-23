@@ -11,15 +11,15 @@ const useStyles = makeStyles(theme => ({
     backgroundColor: theme.palette.background.paper,
   },
   fullName: {
-    width: '160px',
-    marginRight: '16px',
+    width: '180px',
   },
   emailAddress: {
-    width: '320px',
-    marginRight: '16px',
+    width: '280px',
+    marginLeft: '16px',
   },
   phoneNumber: {
-    width: '160px',
+    width: '180px',
+    marginLeft: '16px',
   },
   actions: {
     flexGrow: '1',
@@ -33,7 +33,7 @@ function CreateParticipant() {
   return (
     <form className={classes.root}>
       <OutlinedInput name="fullName" placeholder="Full name" className={classes.fullName} />
-      <OutlinedInput name="emailAddress" placeholder="Email address" className={classes.emailAddress} />
+      <OutlinedInput name="emailAddress" placeholder="E-mail address" className={classes.emailAddress} />
       <OutlinedInput name="phoneNumber" placeholder="Phone number" className={classes.phoneNumber} />
       <div className={classes.actions}>
         <Button variant="contained" color="secondary">

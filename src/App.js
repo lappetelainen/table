@@ -5,14 +5,14 @@ import { ThemeProvider } from '@material-ui/core/styles';
 
 import theme from './theme';
 
-import ReadParticipantsPage from './ReadParticipantsPage';
+import ParticipantsPage from './ParticipantsPage';
 
 function App() {
   return (
     <>
       <CssBaseline />
       <ThemeProvider theme={theme}>
-        <ReadParticipantsPage />
+        <ParticipantsPage />
       </ThemeProvider>
     </>
   );
